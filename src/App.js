@@ -12,6 +12,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Footer from './Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/about' component={About} exact/>
           <Route path='/contact' component={Contact} exact/>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
